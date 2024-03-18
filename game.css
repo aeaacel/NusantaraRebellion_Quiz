@@ -38,6 +38,7 @@ header {
 .linking a {
   color: #e5e5cb;
   font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .home {
@@ -83,8 +84,16 @@ input[type="radio"] {
   margin-right: 1rem;
 }
 
-label {
-  color: #4f3e36;
+.btn {
+  width: 100%;
+  background-color: #4f3e36;
+  color: #e5e5cb;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
 }
 
 #feedback {
